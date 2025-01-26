@@ -2,6 +2,12 @@
 
 This project is a dynamic and interactive **Restaurant Reviews** website where users can explore restaurant details, view reviews, and submit their own reviews. The site provides a clean interface and aims to make discovering great dining experiences easier.
 
+## Preview
+![Screenshot 2025-01-26 at 6 32 20 PM](https://github.com/user-attachments/assets/543c0f90-5433-4ea7-ae4a-13f89bcf096a)
+![Screenshot 2025-01-26 at 6 32 40 PM](https://github.com/user-attachments/assets/bcc7a765-3cb9-4d47-88b6-ccab052dccd7)
+![Screenshot 2025-01-26 at 6 33 04 PM](https://github.com/user-attachments/assets/f57ac015-c4c5-4393-ada4-b84ad964ed48)
+
+
 ## Features
 
 - **Home Page**: Displays a list of restaurants with images, ratings, and short descriptions.
