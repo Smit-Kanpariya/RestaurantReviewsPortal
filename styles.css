@@ -1,0 +1,198 @@
+/* styles.css */
+:root {
+    --accent-color: #0b5e05;
+    --accent-dark-color: #008080;
+    --font-color: #008080;
+    --bg-color: yellowgreen;
+  }
+  
+  body {
+    background-color: yellowgreen;
+    font-family: Helvetica, sans-serif;
+    color: var(--font-color);
+  }
+  
+  main {
+    background-color: var(--bg-color);
+    margin: 0;
+    padding: 5px 10px;
+  }
+  
+  a:link {
+    color: var(--font-color);
+  }
+  
+  a:visited {
+    color: var(--font-color);
+  }
+  
+  a:hover {
+    color: var(--accent-color);
+  }
+  
+  a:active {
+    color: var(--accent-color);
+  }
+  
+  header {
+    background-color: #ceddac;
+    padding: 5px 0;
+    margin: 0;
+  }
+  
+  header h1 {
+    color: var(--accent-color);
+    font-size: 3rem;
+    margin: 10px 10px;
+    text-shadow: 2px 2px 3px gray;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 10px 0;
+  }
+  
+  nav li {
+    display: inline;
+  }
+  
+  nav li a {
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  nav li a:hover {
+    color: #ceddac;
+    background-color: var(--accent-color);
+  }
+  
+  .feature {
+    border-radius: 10px;
+    background: #ceddac;
+    padding: 2px 15px;
+    margin: 10px 0;
+  }
+  
+  .feature a {
+    text-decoration: none;
+  }
+  .flex-container {
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ .feature-right {
+    margin-left: 12px;
+ }
+ 
+  
+  @keyframes lowerAd {
+    from { right: -150px; }
+    to { right: 80px; }
+  }
+  
+  #advertisement {
+    animation-name: lowerAd;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    position: fixed;
+    right: -150px;
+    top: 40px;
+    width: 100px;
+    background: linear-gradient(#9ACD32, #ceddac);
+    box-shadow: 5px 5px;
+    padding: 10px;
+    border-radius: 4px;
+    transition: transform 200ms ease-in-out;
+  }
+  
+  #advertisement:hover {
+    transform: scale(1.2, 1.2);
+  }
+  
+  .restaurant-photo {
+    position: relative;
+  }
+  
+  .stars {
+    position: absolute;
+    top: 220px;
+    left: 10px;
+    width: 180px;
+  }
+  
+  .review {
+    display: grid;
+    grid-template-columns: 130px auto;
+    grid-template-areas: 
+       "name details"
+       "date details"
+       "rating details";
+    border-radius: 5px;
+    background: #ceddac;
+    padding: 8px 8px;
+    margin: 10px 0;   
+    font-size: smaller;
+ }
+ .review-name {
+    grid-area: name;
+    text-align: center;
+ }
+ .review-date {
+    grid-area: date;
+    text-align: center;
+ }
+  
+ .review-rating {
+    grid-area: rating;
+    text-align: center;
+ }
+ 
+ .review-rating > img {
+    width: 20px;
+ }
+ 
+ .review-details {
+    grid-area: details;
+    font-size: larger;
+ }
+ 
+  label {
+    width: 100px;
+    display: inline-block;
+    text-align: right;
+    margin-right: 8px;
+  }
+  
+  form div {
+    margin-bottom: 8px;
+  }
+  
+  input, select, textarea {
+    width: 350px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=number], input[type=date] {
+    width: auto;
+  }
+  
+  button {
+    width: 100px;
+    background-color: var(--accent-color);
+    color: #ceddac;
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+  button:hover {
+    background-color: var(--accent-dark-color);
+  }
