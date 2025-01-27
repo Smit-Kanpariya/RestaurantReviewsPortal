@@ -7,7 +7,6 @@ This project is a dynamic and interactive **Restaurant Reviews** website where u
 ![Screenshot 2025-01-26 at 6 32 40 PM](https://github.com/user-attachments/assets/bcc7a765-3cb9-4d47-88b6-ccab052dccd7)
 ![Screenshot 2025-01-26 at 6 33 04 PM](https://github.com/user-attachments/assets/f57ac015-c4c5-4393-ada4-b84ad964ed48)
 
-
 ## Features
 
 - **Home Page**: Displays a list of restaurants with images, ratings, and short descriptions.
