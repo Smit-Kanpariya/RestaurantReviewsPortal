@@ -4,6 +4,8 @@ This project is a dynamic and interactive **Restaurant Reviews** website where u
 
 ## Preview
 ![Screenshot 2025-01-26 at 6 32 20 PM](https://github.com/user-attachments/assets/543c0f90-5433-4ea7-ae4a-13f89bcf096a)
+<img width="1424" alt="Screenshot 2025-01-27 at 6 00 31 PM" src="https://github.com/user-attachments/assets/f7716ee3-9000-4cd1-ac78-4abddd1e061a" />
+
 ![Screenshot 2025-01-26 at 6 32 40 PM](https://github.com/user-attachments/assets/bcc7a765-3cb9-4d47-88b6-ccab052dccd7)
 ![Screenshot 2025-01-26 at 6 33 04 PM](https://github.com/user-attachments/assets/f57ac015-c4c5-4393-ada4-b84ad964ed48)
 
